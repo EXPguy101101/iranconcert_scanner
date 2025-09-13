@@ -1,0 +1,26 @@
+# IranConcert Scanner Dependencies
+# نیازمندی‌های پروژه اسکنر ایران کنسرت
+# Author: dibbed
+
+# Core dependencies - وابستگی‌های اصلی
+playwright==1.43.0          # Browser automation - اتوماسیون مرورگر
+fake-useragent>=1.4.0       # Random user agents - تولید user agent تصادفی
+
+# Development & Testing - توسعه و تست
+pytest>=7.0.0              # Testing framework - فریمورک تست
+pytest-asyncio>=0.21.0     # Async testing support - پشتیبانی تست async
+pytest-cov>=4.0.0          # Coverage reporting - گزارش پوشش تست
+
+# Optional dependencies - وابستگی‌های اختیاری
+# اگه می‌خوای از این‌ها استفاده کنی، uncomment کن:
+# requests>=2.28.0         # HTTP requests - درخواست‌های HTTP
+# aiohttp>=3.8.0           # Async HTTP client - کلاینت HTTP async
+# beautifulsoup4>=4.11.0   # HTML parsing - تجزیه HTML
+
+# Installation commands - دستورات نصب:
+# pip install -r requirements.txt
+# python -m playwright install
+
+# Development setup - راه‌اندازی توسعه:
+# pip install -r requirements.txt
+# pip install -e .
